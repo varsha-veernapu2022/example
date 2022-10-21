@@ -1,0 +1,28 @@
+3 types of git
+
+1.local vcs  drawback:many ppl cannot be work on them.
+2.centralized vcs   drawback:everytime developer should acitve while working on the code,no Backup,encryption
+3.distributed vcs(dvcs) 
+   Resolve  the prblm of network issue.
+   Commit option
+  eg: GIT ,it uses encryption technique.
+
+Workflow of GIT  :
+   git status: tells about untracked file
+   for tracking the files of untracked file we use (git add<filename>)
+  working tree/directory 
+  staging area (after commiting it enters into local repo)
+  syntax : (git commit -m "description" <filename>
+  local repo
+
+
+  GIT Commands
+  
+rpm -qi git
+
+sudo yum install git
+
+git init
+
+ls -al
+
